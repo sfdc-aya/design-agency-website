@@ -3,7 +3,7 @@ body{
     text-align: center;
 }
 header{
-    background-image: url(https://i2.pickpik.com/photos/490/346/554/monitor-programming-computer-programming-computer-preview.jpg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDQ-nnWAkBt2tCTTfRjjg-hMBRDCYBef30Q&usqp=CAU);
     background-size: cover;
     color: white;
     padding: 50px 0px;
@@ -12,4 +12,26 @@ header{
 .container{
     max-width: 600px;
     margin: auto;
+    color: white;
 }
+button{
+    padding: 20px 20px;
+    background-color: dimgray;
+    color: white;
+}
+.second-block{
+    margin: 0;
+    background-color: lightgray;
+    padding: 50px 0;
+    height: 200px;
+}
+.left{
+    border: solid 5px red;
+    margin: 0px;
+    display: inline-block;
+}
+/*--.right{
+    border: solid 5px red;
+    display: inline-block;
+    vertical-align: middle;
+}/
