@@ -1,37 +1,79 @@
 body{
-    margin: 0;
-    text-align: center;
+    margin:0;
+    padding:0;
+    text-align:center;
 }
-header{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDQ-nnWAkBt2tCTTfRjjg-hMBRDCYBef30Q&usqp=CAU);
-    background-size: cover;
+
+.top, .second-box, .third-box, .four-box, .fifth-box , footer {
+    margin:0;
+    padding:10px;
+}
+.top{
     color: white;
-    padding: 50px 0px;
-    height: 200px;
+    background-image: url(../download.jpeg);
+    background-size:cover;
+    height:200px;
+    padding:50px 0px;
 }
-.container{
-    max-width: 600px;
-    margin: auto;
-    color: white;
-}
+
 button{
-    padding: 20px 20px;
-    background-color: dimgray;
-    color: white;
+    padding:10px 20px;
+    color:white;
+    background-color:black;
 }
-.second-block{
-    margin: 0;
-    background-color: lightgray;
-    padding: 50px 0;
-    height: 200px;
+button:hover{
+    color:black;
+    background-color:white;
+}
+.second-box{
+    background-color: silver;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.third-box{
+    background-color: black;
+    color:white;
+    display:flex;
+}
+.first-box, .middle-box, .last-box{
+    background-color:white;
+    color:black;
+    width:30%;
+    height:250px;
+    padding:20px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.four-box{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.fifth-box{
+    color:white;
+    display:flex;
+}
+.left, .right{
+    color:white;
+    padding: 20px;
+    height: 220px;
 }
 .left{
-    border: solid 5px red;
-    margin: 0px;
-    display: inline-block;
+    background-color:rgb(14, 156, 212);
 }
-/*--.right{
-    border: solid 5px red;
-    display: inline-block;
-    vertical-align: middle;
-}/
+.right{
+    background-color: rgb(61, 62, 64);
+}
+.left-l , .right-r{
+    padding: 0 20px;
+    width:50%;
+}
+footer{
+    display:flex;
+    background-color:black;
+    color: white;
+    justify-content:center;
+}
+img{
+    width:110px;
+    background-size: auto;
+}
